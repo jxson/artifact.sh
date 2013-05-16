@@ -1,0 +1,4 @@
+
+{{#content}}
+  * [{{ title }}]({{ url }})
+{{/content}}
