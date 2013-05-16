@@ -12,5 +12,12 @@
   },
   "author": "Jason Campbell <jason@artifact.sh> (http://artifact.sh)",
   "gitHead": "fe69552c3b2eadbcfba1c6cda4b62b7b53184208",
-  "readmeFilename": "README.md"
+  "readmeFilename": "README.md",
+  "dependencies": {
+    "haiku": "0.1.0-dev.1",
+    "colors": "~0.6.0-1",
+    "powerwalk": "0.0.1",
+    "aws-sdk": "~1.1.0",
+    "convict": "~0.1.0"
+  }
 }
