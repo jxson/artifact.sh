@@ -1,0 +1,16 @@
+{
+  "private": true,
+  "name": "artifact.sh",
+  "version": "0.0.0",
+  "description": "haiku source code for my personal site, artifact.sh",
+  "scripts": {
+    "test": "mocha test/test-*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jxson/artifact.sh.git"
+  },
+  "author": "Jason Campbell <jason@artifact.sh> (http://artifact.sh)",
+  "gitHead": "fe69552c3b2eadbcfba1c6cda4b62b7b53184208",
+  "readmeFilename": "README.md"
+}
