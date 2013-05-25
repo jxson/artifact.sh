@@ -84,14 +84,10 @@ function finish(){
 
     console.log('checking for things that need to deleted'.yellow)
 
-    console.log('list', list)
-
     var zap = list['Contents'].map(function(obj){
       // see if key is not in the list
       if (current.indexOf(obj.key) === -1) return obj.key
     }).filter(function(o){ return o })
-
-    console.log('zap', zap)
 
     if (zap.length === 0) return console.log('nothing to delete'.yellow)
   })
