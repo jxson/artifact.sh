@@ -14,12 +14,5 @@
   "gitHead": "fe69552c3b2eadbcfba1c6cda4b62b7b53184208",
   "readmeFilename": "README.md",
   "dependencies": {
-    "colors": "~0.6.0-1",
-    "powerwalk": "0.0.1",
-    "convict": "~0.1.0",
-    "knox": "~0.8.0",
-    "graceful-fs": "~1.2.1",
-    "mime": "~1.2.9",
-    "haiku": "~0.1.0-1"
   }
 }
