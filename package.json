@@ -14,5 +14,7 @@
   "gitHead": "fe69552c3b2eadbcfba1c6cda4b62b7b53184208",
   "readmeFilename": "README.md",
   "dependencies": {
+    "haiku": "~0.2.2",
+    "beamer": "~0.1.1"
   }
 }
