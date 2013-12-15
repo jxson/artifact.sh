@@ -1,9 +1,16 @@
 
+NPM = $(shell which npm)
+
+node_modules: package.json
+	@npm prune
+	@npm install
+
 clean:
-	rm -rf build
+	@$(RM) -rf build
+	@$(RM) -fr node_modules
+	@$(RM) -fr npm-debug.log
 
-build: clean
-	./node_modules/haiku/bin/haiku build
+test: node_modules
+	@$(NPM) run test
 
-deploy: build
-	./node_modules/beamer/bin/beam build
+.PHONY: clean test
