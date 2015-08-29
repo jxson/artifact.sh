@@ -2,11 +2,7 @@
   "private": true,
   "name": "artifact.sh",
   "version": "0.0.0",
-  "description": "haiku source code for my personal site, artifact.sh",
-  "scripts": {
-    "start": "haiku server",
-    "test": "mocha test/test-*.js"
-  },
+  "description": "haiku source code for my personal site, https://artifact.sh",
   "repository": {
     "type": "git",
     "url": "git://github.com/jxson/artifact.sh.git"
@@ -17,5 +13,10 @@
   "dependencies": {
     "beamer": "~0.1.1",
     "haiku": "~0.2.5"
+  },
+  "devDependencies": {
+    "coveralls": "^2.11.4",
+    "istanbul": "^0.3.18",
+    "tape": "^4.2.0"
   }
 }

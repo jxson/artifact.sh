@@ -1,3 +1,5 @@
 .beam
 node_modules
+build
 npm-debug.log
+coverage
